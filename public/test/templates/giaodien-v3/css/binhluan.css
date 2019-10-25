@@ -1,0 +1,145 @@
+#noiodungbl{
+    max-height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#noidungbl > img{
+    width: 100%;
+    max-height: 245px;
+    margin: auto;
+}
+#noidungbl::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#noidungbl::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#noidungbl::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 2px solid #555555;
+}
+#noidungbl{
+    width: 100%;
+    float: left;
+    max-height: 500px;
+    overflow-x: auto;
+}
+.blavatar{
+     width: 32px;
+     height: 32px;
+     float:left;
+     border-radius: 50%;
+     vertical-align: middle;
+     border: 2px solid #fff;
+}
+.blnoidung{
+    width: calc(100% - 32px);
+    float: left;
+}
+.blnoidung .noidung{
+    float: left;
+    word-break: break-word;
+}
+.blnoidung .noidung .bao{
+    background: #f1f0f0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    text-align: left;
+    float: left;
+}
+.blnoidung .div-rep{
+    width: 100%;
+    float: left;
+}
+.blnguoigui{
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+.div-binhluan{
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+    /*margin-bottom: 70px;*/
+}
+.mb-70{
+    margin-bottom: 70px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.box-binhluan{
+    float: left;
+    width: 100%;
+}
+#bl{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+#binhluan{
+    padding-left: 15px;
+}
+#input_rep0{
+    bottom: 0;
+    /*position: absolute;*/
+    width: 100%;
+}
+.input_rep{
+    width: 95%;
+    float: left;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    background: #FFF;
+}
+.rep-comment{
+    font-weight: 600;
+    cursor: pointer;
+    color: #365899 !important;
+}
+.rep-comment:hover{
+    text-decoration: underline !important;
+}
+[contentEditable=true]:empty:not(:focus):before{
+  content:attr(data-text)
+}
+.input_rep {
+    border-right: 1px solid transparent;
+}
+.input_rep:focus {
+    animation: PulseAttention 1.5s cubic-bezier(.215, .61, .355, 1) forwards infinite;
+}
+
+@keyframes PulseAttention {
+    50% {
+        border-color: red;
+    }
+}
+.rep{
+    position: relative;
+    clear: both;
+}
+.upload-images{
+    display: block;
+    width: 31px;
+    height: 31px;
+    background: url("../images/image-upload.png") no-repeat ;
+    background-size: cover ;
+    position: absolute;
+    right: 5px;
+}

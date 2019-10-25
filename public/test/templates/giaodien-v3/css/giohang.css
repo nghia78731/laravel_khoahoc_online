@@ -1,0 +1,211 @@
+.bochon{
+    position: absolute;
+    top: 0;
+    right: -10px;
+    cursor: pointer;
+}
+#hocphi2{
+    color: #fd6e23;
+    font-size: 20px;
+    font-weight: bold;
+}
+#hocphi{
+    color: #2e4050;
+    font-size: 16px;
+}
+body{
+    background: #f5f7f9 !important;
+}
+a:hover,a:focus{
+    text-decoration: none;
+}
+.giohang .chonlop{
+    width: 30%;
+    float: left;
+    padding: 15px;
+}
+.giohang .chonlop select{
+    padding: 5px 60px 5px 5px;
+    border: 1px solid #c8ced5;
+    border-radius: 5px;
+    outline: none;
+}
+#nam .active{
+    background: #18b597;
+}
+.giohang .chonmon .active{
+    
+}
+.giohang .chonmon .active a{
+    color: #18b597;
+    border-bottom: 2px solid #18b597;
+    padding-bottom: 25px;
+}
+#nam .active a{
+    color: #fff !important;
+}
+.giohang .lop{
+    float: left;
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    margin-right: 15px;
+    background: #fff;
+}
+.giohang .lop:last-child{
+    border-right: 1px solid #ddd;
+}
+.giohang .lop a{
+    text-transform: uppercase;
+    color: #333;
+    font-size: 14px;
+}
+.giohang .chonmon{
+    width: 70%;
+    float: left;
+}
+.giohang .mon{
+    float: left;
+    padding: 15px;
+}
+.giohang .mon a{
+    text-transform: uppercase;
+    color: #2e4050;
+    font-weight: bold;
+    font-size: 16px;
+}
+.giohang .chonkhoahoc{
+    background: unset;
+}
+.giohang .chonkhoahoc{
+    width: calc(100% - 200px);
+    float: left;
+}
+.giohang .chonkhoahoc .chon{
+    width: 60%;
+    float: left;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+.giohang .chonkhoahoc .chon p{
+    margin: 0;
+}
+.giohang .chonkhoahoc .chon h3{
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+}
+.giohang .chonkhoahoc .chon .item{
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 100%;
+    float: left;
+    background: #fafafa;
+}
+.giohang .chonkhoahoc .chon .item:hover{
+    border: 2px solid #18b597;
+}
+.giohang .chonkhoahoc .chon .item .left{
+    width: 70%;
+    float: left;
+}
+.giohang .chonkhoahoc .chon .item .left .gia{
+    color: #fd6e23;
+    font-size: 15px;
+    line-height: 0;
+    width: 30%;
+    text-align: right;
+    line-height: 15px;
+}
+.giohang .chonkhoahoc .chon .item .right{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.giohang .chonkhoahoc .chon .item .right .nutchon{
+    background: #2e4050 none repeat scroll 0 0;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 30px;
+    box-shadow: 1px 2px 2px rgba(128,128,128,0.75);
+    cursor: pointer;
+}
+.giohang .chonkhoahoc .chon .item:hover .right .nutchon{
+    background: #fd6e23 none repeat scroll 0 0;
+    color: #fff;
+}
+.giohang .chonkhoahoc .chon .item .right .dachon2{
+    background: #fd6e23 none repeat scroll 0 0;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 30px;
+    box-shadow: 1px 2px 2px rgba(128,128,128,0.75);
+    cursor: not-allowed;
+}
+.giohang .chonkhoahoc .gio{
+    width: 40%;
+    float: left;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+.giohang .chonkhoahoc .gio p{
+    margin: 0;
+}
+.giohang .chonkhoahoc .gio h3{
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+}
+.giohang .chonkhoahoc .gio .item{
+    margin-bottom: 0;
+    border-top: 1px solid #ddd;
+    padding: 5px 15px;
+    width: 100%;
+    float: left;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background: #fafafa;
+}
+.giohang .chonkhoahoc .gio .item .left{
+    width: 95%;
+    float: left;
+}
+.giohang .chonkhoahoc .gio .item .right{
+    width: 5%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.giohang .chonkhoahoc .gio .item .right .bochon:hover{
+    color: #ed1c24;
+}
+.giohang .chonkhoahoc .gio .btn-dangkyhoc{
+    background: #fd6e23;
+    border: none;
+    width: 100%;
+    color: #ffff;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.menu-chon{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #ddd;
+}
+.nhandexem{
+    cursor: pointer;
+    background: none !important;
+    color: #2e4050 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.color-2e{
+    color: #2e4050;
+}

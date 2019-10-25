@@ -1,0 +1,282 @@
+.bg-test{
+    margin: 60px 0;
+}
+.khungtest .dapan{
+    width: 100%;
+    float: left;
+    overflow-y: auto;
+    height: 175px;
+}
+.bg-test .time{
+    width: 115px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+    border-bottom-left-radius: 15px;
+}
+.bg-test .time .clock{
+    background: red;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+.bg-test .time .text{
+    height: calc(100% - 100px);
+    background: #fff;
+    text-align: center;
+}
+.bg-test .time .text p{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 30px;
+    color: #e60101;
+    font-weight: bold;
+}
+.bg-test .time{
+    z-index: 999;
+}
+.bg-test .time .clock img{
+    padding-top: 15px;
+}
+.khung-test{
+    clear: both;
+    width: 100%;
+    display: block;
+    background: #ffffff;
+    position: relative;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0px 4px 7px 1px #33333361;
+}
+.print{
+    max-width: 1075px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    top: -42px;
+}
+.print p{
+    background: #ff7d14;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    width: 130px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.print:nth-child(1){
+    width: 200px;
+}
+.print:nth-child(1) p{
+    background: #fa7d2c;
+}
+.print:nth-child(2) p{
+    width: 200px;
+    background: #4b64e5;
+}
+.print:nth-child(2){
+    left: 140px;
+}
+.print:nth-child(3){
+    left: 350px;
+}
+.print:nth-child(3) p{
+    background: #01bcf1;
+}
+.test-header{
+    padding: 15px 0;
+}
+.test-header .thoigian{
+    color: #f01d01;
+    font-size: 18px;
+    text-align: center;
+}
+.test-header .diem{
+    color: #18b597;
+    font-size: 20px;
+    text-align: center;
+}
+.test-header .diem span{
+    border: 2px solid #18b597;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.test-footer{
+    clear: both;
+    padding: 30px 0px;
+}
+.test-header h1{
+    text-align: center;
+    margin: 0;
+    color: #232323;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.test-body{
+    min-height: 600px;
+}
+.test-body .cauhoi{
+    padding: 15px;
+    font-size: 16px;
+    color: #232323;
+    width: 100%;
+    float: left;
+}
+.test-body .tuluan ol li p{
+    width: 100%;
+    display: block;
+}
+.input_tuluan{
+    margin-left: 20px;
+    padding: 5px;
+}
+.tuluan .dung{
+    background: #18b597;
+    color: #fff;
+}
+.tuluan .sai{
+    color: #fff;
+    background: #7f7f7f;
+}
+
+.test-body .cauhoi .cau{
+    font-size: 18px;
+    font-weight: 600;
+    color: #232323;
+}
+.test-body .cauhoi .cau span{
+    display: inline-block;
+    border: 1px solid #232323;
+    padding: 5px 15px;
+    margin-left: 15px;
+}
+.test-body .cauhoi:nth-child(even){
+    background: #ffffff;
+}
+/*
+.test-body .cauhoi:nth-child(odd){
+    background: #f3fbfa;
+}
+ */
+.test-body .debai{
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+.macauhoi{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.macauhoi .ma{
+    display: inline-block;
+    border: 1px solid #777;
+    padding: 5px 10px;
+    margin-left: 15px;
+}
+.tracnghiem ol,.tuluan ol{
+    text-align: left;
+    list-style: none;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.tracnghiem ol li,.tuluan ol li{
+    color: #232323;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.tuluan ol li{
+    margin: 0;
+    padding: 0;
+}
+.tracnghiem ol li p,.tuluan ol li p{
+    position: relative;
+    margin: 10px 0px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 100;
+    display: inline-block;
+    padding: 5px 0;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+.tracnghiem ol .sai p:after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background: #7f7f7f;
+    left: 0;
+    top: 15px;
+}
+.tracnghiem ol .sai p:before{
+    background-image: url('/templates/test-client/icon/tickxam.png');
+}
+.tracnghiem ol li p:before{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content: '';
+    background-image: url(/templates/test-client/icon/ellipse.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/*
+.tracnghiem ol .active p{
+    border: 3px solid #18b597;
+    border-radius: 10px;
+}
+
+ *
+.tracnghiem ol .active p:before{
+    background-image: url('/templates/test-client/icon/tick.png');
+}
+.tracnghiem ol .dung p:before{
+    background-image: url(/templates/test-client/icon/ellipse.png);
+}
+.test-footer .next{
+    background: no-repeat;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: #0d876c;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgba(23,177,147,1);
+    background: -moz-linear-gradient(top, rgba(23,177,147,1) 0%, rgba(23,177,147,1) 8%, rgba(13,135,108,1) 59%, rgba(13,135,108,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(23,177,147,1)), color-stop(8%, rgba(23,177,147,1)), color-stop(59%, rgba(13,135,108,1)), color-stop(100%, rgba(13,135,108,1)));
+    background: -webkit-linear-gradient(top, rgba(23,177,147,1) 0%, rgba(23,177,147,1) 8%, rgba(13,135,108,1) 59%, rgba(13,135,108,1) 100%);
+    background: -o-linear-gradient(top, rgba(23,177,147,1) 0%, rgba(23,177,147,1) 8%, rgba(13,135,108,1) 59%, rgba(13,135,108,1) 100%);
+    background: -ms-linear-gradient(top, rgba(23,177,147,1) 0%, rgba(23,177,147,1) 8%, rgba(13,135,108,1) 59%, rgba(13,135,108,1) 100%);
+    background: linear-gradient(to bottom, rgba(23,177,147,1) 0%, rgba(23,177,147,1) 8%, rgba(13,135,108,1) 59%, rgba(13,135,108,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17b193', endColorstr='#0d876c', GradientType=0 );
+}
+.test-footer .next img{
+    max-width: 100%;
+}
+.input_tuluan {
+    margin-left: 20px;
+    padding: 5px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: dotted #000 2px;
+}

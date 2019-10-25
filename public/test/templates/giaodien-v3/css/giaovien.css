@@ -1,0 +1,117 @@
+.div-25{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.timgiaovien select{
+    width: 120px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 0 5px;
+}
+.item-giaovien{
+    position: relative;
+    margin-top: 15px;
+}
+.item-giaovien .img img{
+    width: 100%;
+}
+/*.item-giaovien:after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #a0a0a0;
+    height: 3px;
+    left: 65px;
+    right: 0;
+}
+.item-giaovien:before {
+    background-color: #fba61a;
+    height: 5px;
+    left: 0;
+    width: 56px;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+}*/
+.item-giaovien .content{
+    padding-bottom: 5px;
+}
+.item-giaovien .content .ten{
+    font-size: 18px;
+    color: #2e4050;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+}
+.item-giaovien .content .bomon{
+    font-size: 14px;
+    color: #2e4050;
+    float: left;
+    width: 100%;
+}
+.item-giaovien .content .truong{
+    font-size: 14px;
+    color: #2e4050;
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.item-giaovien .content .chitiet{
+    font-size: 16px;
+    color: #2e4050;
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+.item-giaovien .content .xemthem{
+    font-size: 13px;
+    color: #18b597;
+    font-weight: bold;
+    padding: 0;
+    float: unset;
+    width: unset;
+    border-bottom: 3px solid #18b597;
+}
+.timgiaovien{
+    padding-top: 30px;
+    width: 100%;
+    float: left;
+    padding-bottom: 15px;
+}
+.timgiaovien .search_gv{
+    float: right;
+}
+.timgiaovien .search_gv input{
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 0 5px;
+}
+.timgiaovien .search_gv button{
+    border: 1px solid #fd6e23;
+    padding: 5px 15px;
+    margin: 0 5px;
+    background: #fd6e23;
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+    border-radius: 15px;
+}
+.totop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #fd6e23;
+    right: 2%;
+    bottom: 5%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+}
+.totop:hover{
+    background: #18b597;
+}
